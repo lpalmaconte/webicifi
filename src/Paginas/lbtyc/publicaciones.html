@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LBTyC</title>
+        <link rel="icon" type="image/png" href="img/lablogo2.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                    <h2>LBTyC</h2>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                    <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                    <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                    <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                    <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="language-toggle">
+                    <button id="btn-es" class="active">ES</button>
+                    <span>/</span>
+                    <button id="btn-en">EN</button>
+                </div>
+
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-publicaciones">
+            <section class="publicaciones">
+                <h1 data-i18n="publicaciones-titulo" >Algunas publicaciones</h1>
+                <p data-i18n="publicaciones-text">En esta sección encontrarás nuestras últimas publicaciones científicas. Estas investigaciones reflejan nuestro compromiso con la excelencia en el campo de la biotecnología y la bioinformática.</p>
+                <ul class="publicaciones-lista">
+                    <li>Alvarez, G., Di Lella, S., Pickholz, M., Scodeller P, and Asciutto E.K. Deglycosylation induces a novel distal conformation in the mannose receptor CD206. Sci Rep 16, 5239 (2026). <a href="https://doi.org/10.1038/s41598-026-35240-y">https://doi.org/10.1038/s41598-026-35240-y</a></li>
+                    <li>Lepland, A; Peranzoni, E.; Haljasorg, U.; Asciutto, E. K.; Crespíamer, M.; Modesti, L; Kilk, K; Lombardia, M; Acosta, G; Royo, M; Peterson, P; Marigo, I; Teesalu, T; Scodeller, Pablo, Peptide‐Drug Conjugate for Therapeutic Reprogramming of Tumor‐Associated Macrophages in Breast Cancer, Advanced Science; (2025) <a href=""></a></li>
+                    <li>Arias, A.; Tovar-Martinez, L; Asciutto, E. K.; Mann, A; Põnograjeva, K; Gracia, L S; Royo, M; Haugas, M; Teesalu, T; Smulski, C; Ruoslahti, E; Scodeller, P A Cyclic Peptide Targets Glioblastoma by Binding to Aberrantly Exposed SNAP25, MOLECULAR PHARMACEUTICS; Washington; (2024). <a href=""></a></li>
+                    <li>Trujillo, P; Garavaglia, P; Alvarez, G; Aduviri, S; Domene, C; Cannata, J; Asciutto, E K.; García, G. A.; Pickholz, M. Insight from atomistic molecular dynamics simulations into the supramolecular assembly of the aldo-keto reductase from Trypanosoma cruzi, Journal of Molecular Modeling, Berlin; (2024) vol. 30. <a href=""></a> </li>
+                    <li>F. Ormeño, I.J. General. Convergence and equilibrium in molecular dynamics simulations. Comm. Chem., 2024, 7, 2399-3669. <a href="https://doi.org/10.1038/s42004-024-01114-5">https://doi.org/10.1038/s42004-024-01114-5</a></li>
+                    <li>M.L. Perez Saura, C.L. Cajachagua, A. Balan, I.J. General. Phosphate uptake in PhoX: Molecular mechanisms, Int. J. Biol. Macromol., 2024, 269, 131993. <a href="https://doi.org/10.1016/j.ijbiomac.2024.131993">https://doi.org/10.1016/j.ijbiomac.2024.131993</a></li>
+                    <li>F. Pullara, M.C. Forsmann, I.J. General, J. C. Ayoob, E. Furbee, S. 	L. Castro, X. Hu, J.T. Greenamyre, R. Di Maio, NADPH 	oxidase 2 activity disrupts Calmodulin/CaMKIIα complex via redox modifications of CaMKIIα-contained Cys30 and Cys289: Implications in Parkinson’s disease. Redox Biol., 2024, 75, 103254.  <a href="https://doi.org/10.1016/j.redox.2024.103254">https://doi.org/10.1016/j.redox.2024.103254</a></li>
+                    <li>-R.C.N. Quiroz, E.A. Philot, I.J. General, D. Perahia, A.L. Scott. Effect of phosphorylation on the structural dynamics, thermal stability of human dopamine transporter: A simulation study using normal modes, molecular dynamics and Markov State Model, J. Mol. Graph, 2023, 118, 108359, doi. <a href=" https://doi.org/10.1016/j.jmgm.2022.108359"> https://doi.org/10.1016/j.jmgm.2022.108359</a></li>
+                    <li>-G. Alvarez, T. Le, N. Wong, J. Echave, T. Pochapsky, and E. Asciutto, Hydroxylation Regiochemistry is Robust to Active Site Mutations in Cytochrome P450cam (CYP101A1),  Biochemistry, (2022), 17, (61), p:1790-1800.
+                    <a href=""></a></li>
+                    <li>A. Lepland, A. Malfanti, U. Haljasorg, E. Asciutto, M. Pickholz, M. Bringas, S. Dordevic, L. Salumae, P. Peterson, T. Teesalu, M. Vicent and P. Scodeller, Depletion of Mannose Receptor Positive Tumor Associated Macrophages via a Peptide Targeted Star-Shaped Polyglutamate inhibits Breast Cancer Progression in Mice, Cancer Research Comm., (2022). <a href=""></a></li>
+                    <li>Prakash Lingasamy, Kristina Põšnograjeva, Sergei Kopanchuk, Allan Tobi, Ago Rinken, Ignacio J General, Eliana K Asciutto, Tambet Teesalu, PL1 peptide engages acidic surfaces on tumor-associated fibronectin and tenascin isoforms to trigger cellular uptake, Pharmaceutics 13 (12), 1998, (2021) <a href=""></a></li>
+                    <li>8-EK Asciutto, S Pantano, IJ General, Physical interactions driving the activation/inhibition of calcium/calmodulin dependent protein kinase II, Journal of Molecular Graphics and Modelling 105, 107875, (2021) <a href=""></a></li>
+                    <li>Ana Gonzalez Wusener, Angela Gonzalez, Maria E. Perez Collado, Melina R. Maza, Ignacio J. General, Carlos O. Arregui, Protein Tyrosine Phosphatase 1B, PTP1B, Targets Fak and Paxillin in Cell-Matrix Adhesions. J. Cell Sci., 2021, doi. <a href="https://doi.org/10.1242/jcs.258769">https://doi.org/10.1242/jcs.258769</a></li>
+                    <li>Eliana K. Asciutto, Sergio Pantano, Ignacio J. General. Physical Interactions Driving the Activation/Inhibition of Calcium/Calmodulin Dependent Protein Kinase II, J. Mol. Graph, 2021, 105, doi <a href="https://doi.org/10.1016/j.jmgm.2021.107875">https://doi.org/10.1016/j.jmgm.2021.107875</a></li>
+                    <li>A Lepland, EK Asciutto, A Malfanti, L Simón-Gracia, V Sidorenko, Maria J Vicent, Tambet Teesalu, Pablo Scodeller, Targeting pro-tumoral macrophages in early primary and metastatic breast tumors with the CD206-binding mUNO peptide, Molecular pharmaceutics 17 (7), 2518-2531, (2020). <a href=""></a></li>
+                    <li>P Scodeller, EK Asciutto, Targeting tumors using peptides, Molecules 25 (4), 808, (2020). <a href=""></a></li>
+                    
+                </ul>
+            </section>
+
+        </main>
+
+
+        <footer>
+
+            <section class="footer-arriba">
+                <div class="footer-logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                </div>
+
+                <div class="footer-caja">
+
+                    <ul class="footer-links">
+                        
+                            <div class="column1">
+                                <h3 data-i18n="home-footer-conacto">Contacto</h3>
+                                <li>Universidad Nacional de San Martín (UNSAM)</li>
+                                <li>Edificio ITS, Campus Miguelete, 25 de Mayo y Francia (1650)</li>
+                                <li>easciutto@unsam.edu.ar</li>
+                            </div>
+                            <div class="column2">
+                                <h3>Links</h3>
+                                <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                                <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                                <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                            </div>
+                            <div class="column3">
+                                <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                                <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                                <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>  
+                            </div>
+                    </ul>
+                    
+                </div>
+            </section>
+
+        
+        <section class="footer-abajo">
+            <div class="footer-icons">
+            <a target="_blank" href="https://www.instagram.com/labbioficomp.unsam?igsi=MWd5bGJ6amZua3pocA=="><img src="img/instagram.png" alt="icono de instagram"></a>
+            <a href="mailto:easciutto@unsam.edu.ar" target="_blank"><img src="img/mail.png" alt="icono de mail"></a>
+            </div>
+        </section>
+
+        </footer>
+
+
+    <script src="js/scripts.js"></script>    
+    </body>
+
+
+</html>

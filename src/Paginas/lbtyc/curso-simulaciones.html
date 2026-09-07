@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LBTyC</title>
+        <link rel="icon" type="image/png" href="img/lablogo2.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                    <h2>LBTyC</h2>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                    <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciónes</a></li>
+                    <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                    <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                    <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="language-toggle">
+                    <button id="btn-es" class="active">ES</button>
+                    <span>/</span>
+                    <button id="btn-en">EN</button>
+                </div>
+
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-cursos">
+            <section class="curso-intro">
+                <h1 data-i18n="cursos-simulaciones-titulo">Simulaciones computacionales de biomoleculas</h1>
+                <p data-i18n="simulaciones-curso-text">El método de Montecarlo y la Dinámica Molecular son métodos de distinto tipo, uno basado en la probabilidad de que un evento ocurra, el otro en la resolución de las ecuaciones de movimiento de un sistema, que son usualmente aplicados al estudio de las biomoléculas. En particular, en este curso los aplicaremos al estudio de sistemas simples, como un conjunto de partículas idénticas no interactuantes (gas ideal), y como un sistema simplificado de lo que podría ser una proteína, es decir, una cadena de elementos con ciertas propiedades. <br> El fin del curso es que el estudiante: 1) aprenda a desarrollar un algoritmo que resuelva un problema, 2) lo programe en su lenguaje de preferencia, 3) lo testee hasta asegurarse de que funcione correctamente, 4) lo use para realizar experimentos computacionales con un sistema de interés, 5) saque conclusiones fundamentadas a partir de los resultados. <br> Actualmente hay muchos programas que permiten realizar simulaciones computacionales y que, gracias a su interfase amigable, son sencillos de usar, pero eso no garantiza que el usuario lo aplique correctamente al estudio del sistema en cuestión. Por el contrario, es fácil «creer» que el programa está haciendo algo que no hace, y sacar conclusiones falsas de sus resultados. Esto es especialmente verdadero cuando se aplican métodos sofisticados que ya vienen «enlatados» en el código. <br> Por ello, creemos que es fundamental tener una formación técnica en cuanto a las bases de estos métodos; y probablemente no haya forma mas eficiente de aprender algo que programándolo ya que, para hacerlo exitosamente, necesitamos entender en detalle tanto las ecuaciones usadas, como el algoritmo aplicado para su resolución. <br> El curso se ofrece en la UNSAM, como materia optativa para estudiantes de la carrera de Licenciatura en Biotecnología, y para alumnos del Doctorado en Ciencias Aplicadas y de la Ingeniería. <br> Para inscribirse en el curso, hacerlo directamente a través de UNSAM, y para el doctorado enviar un e-mail a doctoradoecyt@unsam.edu.ar </p>
+            </section>
+
+            <section class="curso-notas">
+                <h3 data-i18n="notas-cursos">Notas de la materia</h3>
+                <ul class="lista-notas">
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/03/scb-1-modelos.pdf" target="_blank" rel="noopener noreferrer">SCBnotas1-Modelos</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/03/scb-2-montecarlo-1.pdf" target="_blank" rel="noopener noreferrer">SCBnotas2-Montecarlo1</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/03/scb-3-montecarlo-2-molecule.pdf" target="_blank" rel="noopener noreferrer">SCBnotas3-Montecarlo2-molecula</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/04/scb-4-montecarlo-3-protein.pdf" target="_blank" rel="noopener noreferrer">SCBnotas4-Montecarlo3-proteina</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/05/scb-5-md-1.pdf" target="_blank" rel="noopener noreferrer">SCBnotas5-MD1</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/05/scb-6-md-2-algoritmos-1.pdf" target="_blank" rel="noopener noreferrer">SCBnotas6-MD2-algoritmos</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2025/10/scb-7-md-3-controltp-y-cpc.pdf" target="_blank" rel="noopener noreferrer">SCBnotas7-MD3-controlTP-CPC</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/06/scb-8-analisis.pdf" target="_blank" rel="noopener noreferrer">SCBnotas8-Analisis</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/04/scb-tp-0-mc-molecula3atomica.pdf" target="_blank" rel="noopener noreferrer">Trabajo Practico: SCB-TP0-MC-molecula-triatomica</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/04/scb-tp-1-mc-proteina.pdf" target="_blank" rel="noopener noreferrer">Trabajo Practico: SCB-TP1-MC-proteina</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/05/scb-tp-2-md-1.pdf" target="_blank" rel="noopener noreferrer">Trabajo Practico: SCB-TP2-MD-gas-ideal</a></li>
+                </ul>
+
+            </section>
+            
+        </main>
+
+        <footer>
+
+            <section class="footer-arriba">
+                <div class="footer-logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                </div>
+
+                <div class="footer-caja">
+
+                    <ul class="footer-links">
+                        
+                            <div class="column1">
+                                <h3 data-i18n="home-footer-conacto">Contacto</h3>
+                                <li>Universidad Nacional de San Martín (UNSAM)</li>
+                                <li>Edificio ITS, Campus Miguelete, 25 de Mayo y Francia (1650)</li>
+                                <li>easciutto@unsam.edu.ar</li>
+                            </div>
+                            <div class="column2">
+                                <h3>Links</h3>
+                                <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                                <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                                <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                            </div>
+                            <div class="column3">
+                                <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                                <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                                <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>  
+                            </div>
+                    </ul>
+                    
+                </div>
+            </section>
+
+        
+        <section class="footer-abajo">
+            <div class="footer-icons">
+            <a target="_blank" href="https://www.instagram.com/labbioficomp.unsam?igsi=MWd5bGJ6amZua3pocA=="><img src="img/instagram.png" alt="icono de instagram"></a>
+            <a href="mailto:easciutto@unsam.edu.ar" target="_blank"><img src="img/mail.png" alt="icono de mail"></a>
+            </div>
+        </section>
+
+        </footer>
+
+    <script src="js/scripts.js"></script>    
+    </body>
+
+
+</html>

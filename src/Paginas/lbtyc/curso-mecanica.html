@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LBTyC</title>
+        <link rel="icon" type="image/png" href="img/lablogo2.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                    <h2>LBTyC</h2>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                    <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciónes</a></li>
+                    <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                    <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                    <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="language-toggle">
+                    <button id="btn-es" class="active">ES</button>
+                    <span>/</span>
+                    <button id="btn-en">EN</button>
+                </div>
+
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-cursos">
+            <section class="curso-intro">
+                <h1 data-i18n="cursos-mecanica-titulo">Mecanica Clasica</h1>
+                <p data-i18n="mecanica-text">La ecuación de Euler-Lagrange puede ser vista como la segunda ley de Newton expresada en coordenadas generalizadas. Esta es una perspectiva muy intuitiva, que claramente muestra la conexión intrínseca entre la dinámica newtoniana y la lagrangiana. Fue desarrollada originalmente por Walter Hauser en su libro Introduction to the Principles of Mechanics.</p>
+            </section>
+
+            <section class="curso-notas curso-mecanica">
+                <h3 data-i18n="notas-cursos">Notas de la materia</h3>
+                <ul class="lista-notas">
+                    <li> <a href="https://aglab1.wordpress.com/wp-content/uploads/2018/06/hauser_lagrangeeqs.pdf" target="_blank">Newton-Lagrange (Hauser)</a></li>
+                </ul>
+
+            </section>
+            
+        </main>
+
+        <footer>
+
+            <section class="footer-arriba">
+                <div class="footer-logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                </div>
+
+                <div class="footer-caja">
+
+                    <ul class="footer-links">
+                        
+                            <div class="column1">
+                                <h3 data-i18n="home-footer-conacto">Contacto</h3>
+                                <li>Universidad Nacional de San Martín (UNSAM)</li>
+                                <li>Edificio ITS, Campus Miguelete, 25 de Mayo y Francia (1650)</li>
+                                <li>easciutto@unsam.edu.ar</li>
+                            </div>
+                            <div class="column2">
+                                <h3>Links</h3>
+                                <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                                <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                                <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                            </div>
+                            <div class="column3">
+                                <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                                <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                                <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>  
+                            </div>
+                    </ul>
+                    
+                </div>
+            </section>
+
+        
+        <section class="footer-abajo">
+            <div class="footer-icons">
+            <a target="_blank" href="https://www.instagram.com/labbioficomp.unsam?igsi=MWd5bGJ6amZua3pocA=="><img src="img/instagram.png" alt="icono de instagram"></a>
+            <a href="mailto:easciutto@unsam.edu.ar" target="_blank"><img src="img/mail.png" alt="icono de mail"></a>
+            </div>
+        </section>
+
+        </footer>
+
+
+    <script src="js/scripts.js"></script>    
+    </body>
+
+
+</html>

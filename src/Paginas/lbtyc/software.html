@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LBTyC</title>
+        <link rel="icon" type="image/png" href="img/lablogo2.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+
+<body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                    <h2>LBTyC</h2>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                    <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                    <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                    <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                    <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="language-toggle">
+                    <button id="btn-es" class="active">ES</button>
+                    <span>/</span>
+                    <button id="btn-en">EN</button>
+                </div>
+
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+
+        <main class="main-software">
+
+            <h2 data-i18n="simulaciones-titulo">Simulaciones de fisica</h2>
+
+            <p data-i18n="simulaciones-text">Estas son algunas simulaciones computacionales de sistemas físicos simples, escritas en Glowscript VPython, lo que les permite ser corridas en navegadores.
+
+            Estas simulaciones son muy útiles para los estudiantes, ya que permiten hacer experimentos con ellas. Por ejemplo, el código «Péndulo» permite medir el período de un péndulo simple, y estudiar como depende de la longitud, del angulo inicial, y de la masa. También grafica los vectores velocidad y fuerza, y como evolucionan en el tiempo.
+
+            Pero estas simulaciones no solo replican experimentos que puede hacerse en la vida real; también es posible experimentar con la órbita de la Tierra en torno al Sol. Por ejemplo, como cambiaría el período del planeta si su velocidad fuera mayor?</p>
+
+            <div class="investigacion-slider">
+                <button class="slider-arrow slider-prev slider-prev2" aria-label="Anterior">
+                        ❮
+                </button>
+
+                <div class="programa-card-list">
+                        <div class="programa-card jump">
+                            <a target="_blank" href="http://www.glowscript.org/#/user/ijgeneral/folder/spanish/program/pendulo"><img src="img/pendulo.png" alt="">
+                            <h3 data-i18n="simulaciones-pendulo-titulo">Péndulo</h3>
+                            <p data-i18n="simulaciones-pendulo-text">Este programa muestra el movimiento de un péndulo, para un cierto angulo inicial. La flecha verde en la masa representa su cantidad de movimiento, y la roja, la fuerza restaurativa actuando en ella, debido a la gravedad.</p></a>                            
+                        </div>
+                        <div class="programa-card jump">
+                            <a target="_blank" href="http://www.glowscript.org/#/user/ijgeneral/folder/spanish/program/orbita-tierra">
+                                <img src="img/orbita.png" alt="">
+                                <h3 data-i18n="simulaciones-orbita-titulo">Orbita de la Tierra alrededor del Sol</h3>
+                                <p data-i18n="simulaciones-orbita-text">Este programa muestra la orbita de la Tierra alrededor del Sol, dada una cierta velocidad tangencial en el afhelio (punto mas alejado de la orbita). La flecha verde en la Tierra representa su momento, y la roja, la fuerza gravitacional actuando sobre ella, debido al Sol.</p>
+                            </a>
+                        </div>
+                        <div class="programa-card jump">
+                            <a target="_blank" href="http://www.glowscript.org/#/user/ijgeneral/folder/spanish/program/ca%C3%B1on-de-newton">
+                                <img src="img/canon.png" alt="">
+                                <h3 data-i18n="simulaciones-canon-titulo">Cañón de Newton</h3>
+                                <p data-i18n="simulaciones-canon-text">Una bala de cañon disparada horizontalmente, desde una cierta altura, caera a la superficie de la Tierra. Pero, dependiendo de su velocidad, podria caer sobre la superficie o no llegar nunca a tocar la superficie.</p>
+                            </a>
+                        </div>
+                        <div class="programa-card jump">
+                            <a target="_blank" href="http://www.glowscript.org/#/user/ijgeneral/folder/spanish/program/tiro-oblicuo">
+                                <img src="img/tiro.png" alt="">
+                                <h3 data-i18n="simulaciones-tiro-titulo">Tiro oblicuo</h3>
+                                <p data-i18n="simulaciones-tiro-text">Este programa muestra la trayectoria que sigue una particula lanzada inicialmente con una cierta velocidad, y bajo una cierta aceleracion. La flecha roja representa la aceleracion a la que esta sometida la particula, y la verde, su velocidad instantanea.</p>
+                            </a>
+                            
+                        </div>
+                        <div class="programa-card jump">
+                            <a target="_blank" href="https://www.glowscript.org/#/user/ijgeneral/folder/spanish/program/virus">
+                                <img src="img/transmision.png" alt="">
+                                <h3 data-i18n="simulaciones-transmision-titulo">Transmisión de enfermedad</h3>
+                                <p data-i18n="simulaciones-transmision-text">La simulacion comienza con una particula enferma, y todas las demas sanas. El contagio puede ocurrir por colision. Una vez enferma por un cierto tiempo fijo, las particulas se recuperan.</p>
+                            </a>                            
+                        </div>
+                        
+                    </div>
+
+                <button class="slider-arrow slider-next slider-next2" aria-label="Siguiente">
+                        ❯
+                </button>
+            </div>
+
+
+                    
+
+            </div>
+
+
+        </main>
+
+
+
+
+        <footer>
+
+            <section class="footer-arriba">
+                <div class="footer-logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                </div>
+
+                <div class="footer-caja">
+
+                    <ul class="footer-links">
+                        
+                            <div class="column1">
+                                <h3 data-i18n="home-footer-conacto">Contacto</h3>
+                                <li>Universidad Nacional de San Martín (UNSAM)</li>
+                                <li>Edificio ITS, Campus Miguelete, 25 de Mayo y Francia (1650)</li>
+                                <li>easciutto@unsam.edu.ar</li>
+                            </div>
+                            <div class="column2">
+                                <h3>Links</h3>
+                                <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                                <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                                <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                            </div>
+                            <div class="column3">
+                                <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                                <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                                <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>  
+                            </div>
+                    </ul>
+                    
+                </div>
+            </section>
+
+        
+        <section class="footer-abajo">
+            <div class="footer-icons">
+            <a target="_blank" href="https://www.instagram.com/labbioficomp.unsam?igsi=MWd5bGJ6amZua3pocA=="><img src="img/instagram.png" alt="icono de instagram"></a>
+            <a href="mailto:easciutto@unsam.edu.ar" target="_blank"><img src="img/mail.png" alt="icono de mail"></a>
+            </div>
+        </section>
+
+        </footer>
+
+        <script src="js/scripts.js"></script>
+
+</body>
+
+

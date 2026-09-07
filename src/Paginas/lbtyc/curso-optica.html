@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LBTyC</title>
+        <link rel="icon" type="image/png" href="img/lablogo2.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                    <h2>LBTyC</h2>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                    <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciónes</a></li>
+                    <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                    <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                    <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="language-toggle">
+                    <button id="btn-es" class="active">ES</button>
+                    <span>/</span>
+                    <button id="btn-en">EN</button>
+                </div>
+
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-cursos">
+            <section class="curso-intro">
+                <h1 data-i18n="cursos-optica-titulo">Óptica y electromagnetismo</h1>
+                <p data-i18n="optica-text">Este curso es una introducción a la óptica y al electromagnetismo, y está dirigido a estudiantes de ciencias de la vida. <br> <br> La óptica se inició como el estudio de la propagacion de la luz, tanto en el vacío como en medios materiales. Como la luz visible es una onda electromagnética, otras formas de radiación electromagnética, como las microondas, rayos-X, etc, también caen dentro del área de estudio de la óptica. Por otro lado, el electromagnetismo es el estudio de las fuerzas eléctricas y magnéticas, que en realidad son dos manifestaciones de una misma fuerza, llamada electromagnética. Esta es una de las cuatro fuerzas fundamentales de la física, junto con la gravedad, fuerza nuclear fuerte y fuerza débil. La luz es una onda de campos electromagnéticos, por lo que la óptica no es más que un capítulo del electromagnetismo. <br> <br> El curso comienza con una breve descripción de los conceptos de oscilaciones y ondas, y sigue con el estudio de la óptica, la cual se estudia desde dos puntos de vista: <br> <br> 
+                •Óptica geométrica: es la aproximación que considera que la luz se propaga en líneas rectas, y solo cambia su dirección como resultado de un cambio en el medio en el que se propaga (reflexión y refracción). <br> •Óptica física: es un enfoque más general de la luz, que toma en cuenta su naturaleza ondulatoria. Esto conduce a los fenómenos de interferencia y difraccion, es decir, la desviación de la luz al propagarse a través de obstáculos pequeños; estos son fenómenos que no pueden explicarse desde el punto de vista de la óptica geométrica. <br> <br> En la segunda parte del curso se estudia la electricidad primero, el magnetismo después, para terminar mostrando que ambas fuerzas son distintos aspectos de una misma fuerza más general, llamada electromagnetismo. <br> <br> A lo largo de la materia se intenta mostrar aplicaciones de la óptica y el electromagnetismo a las ciencias de la vida, como por ejemplo, el funcionamiento de instrumentos ópticos fundamentales en la biología (microscopios ópticos, confocales, de fluorescencia, etc.) y la conducción eléctrica en las células (potenciales de membrana, neuronas como circuítos eléctricos, etc), entre muchos otros. </p>
+            </section>
+
+            <section class="curso-notas">
+                <h3 data-i18n="notas-cursos">Notas de la materia</h3>
+                <ul class="lista-notas">
+                    <li> <a href="https://aglab1es.wordpress.com/wp-content/uploads/2024/03/optnotas1-osciladorarmonico.pdf" target="_blank">OPTnotas1 – Oscilador Armonico</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2020/03/optnotas2-ondas.pdf" target="_blank">OPTnotas2 – Ondas</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2019/05/optnotas3-optica-geometrica-intro.pdf" target="_blank">OPTnotas3 – Optica Geometrica – Intro</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2019/05/optnotas4-optica-geometrica-espejos.pdf" target="_blank">OPTnotas4 – Optica Geometrica – Espejos</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2019/08/optnotas5-optica-geometrica-lentes.pdf" target="_blank">OPTnotas5 – Optica Geometrica – Lentes</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2021/03/optnotas6-optica-geometrica-instrumentosopticos.pdf" target="_blank">OPTnotas6 – Optica Geometrica – Instrumentos Opticos</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2019/08/optnotas7-optica-fisica-interferencia1.pdf" target="_blank">OPTnotas7 – Optica Fisica – Interferencia1</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2019/09/optnotas8-optica-fisica-interferencia2.pdf" target="_blank">OPTnotas8 – Optica Fisica – Interferencia2</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/04/optnotas9-optica-fisica-difraccion.pdf" target="_blank">OPTnotas9 – Optica Fisica – Difraccion</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2023/04/optnotas10-optica-fisica-instrumentosopticos.pdf" target="_blank">OPTnotas10 – Optica Fisica – Instrumentos Opticos</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2025/04/emnotas1-fuerzacampoe.pdf" target="_blank">E&Mnotas1 – Fuerza Y Campo Electrico</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2019/10/emnotas2-leydegauss.pdf" target="_blank">E&Mnotas2 – Ley De Gauss</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2025/05/emnotas3-potencialelectrico.pdf" target="_blank">E&Mnotas3 – Potencial Electrico</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2022/10/emnotas4-capacitores-1.pdf" target="_blank">E&Mnotas4 – Capacitores</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2025/06/emnotas5-circuitos.pdf" target="_blank">E&Mnotas5 – Circuitos</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2019/10/emnotas6-electrostaticaenbiologia.pdf" target="_blank">E&Mnotas6 – Electrostatica en Biologia</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2019/10/emnotas7-magnetismo.pdf" target="_blank">E&Mnotas7 – Magnetismo</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2024/10/emnotas8-fuentesdelcampomagnetico.pdf" target="_blank">E&Mnotas8 – Fuentes del Campo Magnetico</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2022/10/emnotas9-induccionelectromagnetica.pdf" target="_blank">E&Mnotas9 – Induccion Electromagnetica</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2025/06/emnotas10-rmn.pdf" target="_blank">E&Mnotas10 – RMN</a></li>
+                </ul>
+
+            </section>
+            
+        </main>
+
+        <footer>
+
+            <section class="footer-arriba">
+                <div class="footer-logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                </div>
+
+                <div class="footer-caja">
+
+                    <ul class="footer-links">
+                        
+                            <div class="column1">
+                                <h3 data-i18n="home-footer-conacto">Contacto</h3>
+                                <li>Universidad Nacional de San Martín (UNSAM)</li>
+                                <li>Edificio ITS, Campus Miguelete, 25 de Mayo y Francia (1650)</li>
+                                <li>easciutto@unsam.edu.ar</li>
+                            </div>
+                            <div class="column2">
+                                <h3>Links</h3>
+                                <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                                <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                                <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                            </div>
+                            <div class="column3">
+                                <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                                <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                                <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>  
+                            </div>
+                    </ul>
+                    
+                </div>
+            </section>
+
+        
+        <section class="footer-abajo">
+            <div class="footer-icons">
+            <a target="_blank" href="https://www.instagram.com/labbioficomp.unsam?igsi=MWd5bGJ6amZua3pocA=="><img src="img/instagram.png" alt="icono de instagram"></a>
+            <a href="mailto:easciutto@unsam.edu.ar" target="_blank"><img src="img/mail.png" alt="icono de mail"></a>
+            </div>
+        </section>
+
+        </footer>
+
+
+    <script src="js/scripts.js"></script>    
+    </body>
+
+
+</html>

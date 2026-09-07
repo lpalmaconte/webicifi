@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LBTyC</title>
+        <link rel="icon" type="image/png" href="img/lablogo2.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                    <h2>LBTyC</h2>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                    <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                    <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                    <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                    <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="language-toggle">
+                    <button id="btn-es" class="active">ES</button>
+                    <span>/</span>
+                    <button id="btn-en">EN</button>
+                </div>
+
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-cursos">
+            <section class="titulos-cursos">
+                <h1 data-i18n="cursos-titulo">Cursos</h1>
+                <p data-i18n="cursos-text">En esta sección encontrarás información sobre los cursos que ofrecemos en el laboratorio.</p>                
+            </section>
+
+            <section class="lista-cursos">
+
+                <hr class="divider">
+
+                <div class="curso impar">
+                    <img src="img/mecanica.webp" alt="Icono de Mecánica">
+                    <div>
+                        <h2 data-i18n="cursos-mecanica-titulo">Mecánica clásica</h2>
+                        <p data-i18n="cursos-mecanica-text">En este curso se exploran técnicas computacionales aplicadas a problemas biológicos, como modelado molecular y simulaciones.</p>
+                        <button class="boton-cursos"> <a data-i18n="cursos-boton" href="curso-mecanica.html">Ver más</a></button>
+                    </div>
+                </div>
+
+                <hr class="divider">
+
+                <div class="curso par">
+                    <img src="img/optica.png" alt="Icono de Óptica">
+                    <div>
+                        <h2 data-i18n="cursos-optica-titulo">Óptica y electromagnetismo</h2>
+                        <p data-i18n="cursos-optica-text">Este curso ofrece una introducción a la biotecnología, incluyendo técnicas de laboratorio y aplicaciones en la industria.</p>
+                        <button class="boton-cursos"><a data-i18n="cursos-boton" href="curso-optica.html">Ver más</a></button>
+                    </div>
+                </div>
+
+                <hr class="divider">
+
+                <div class="curso impar">
+                    <img src="img/moderna.webp" alt="Icono de Física Moderna">
+                    <div>
+                        <h2 data-i18n="cursos-moderna-titulo">Física moderna</h2>
+                        <p data-i18n="cursos-moderna-text">Este curso explora los principios de la física moderna y sus aplicaciones en biología y medicina.</p>
+                        <button class="boton-cursos"><a data-i18n="cursos-boton" href="curso-moderna.html">Ver más</a></button>
+                    </div>
+                </div>
+
+                <hr class="divider">
+
+                <div class="curso par">
+                    <img src="img/molecula.png" alt="Icono de Físico-Química">
+                    <div>
+                        <h2 data-i18n="cursos-quimica-titulo">Físico-química</h2>
+                        <p data-i18n="cursos-quimica-text">Este curso cubre los fundamentos de la bioinformática, incluyendo análisis de secuencias, estructuras de proteínas y genómica.</p>
+                        <button class="boton-cursos"><a data-i18n="cursos-boton" href="curso-quimica.html">Ver más</a></button>
+                    </div>
+                </div>
+
+                <hr class="divider">
+
+                <div class="curso impar">
+                    <img src="img/dinamica.svg" alt="Icono de Dinámica molecular">
+                    <div>
+                        <h2 data-i18n="cursos-dinamica-titulo">Dinámica molecular de proteínas</h2>
+                        <p data-i18n="cursos-dinamica-text">Este curso explora las técnicas de simulación y modelado de sistemas biológicos a nivel molecular.</p>
+                        <button class="boton-cursos"><a data-i18n="cursos-boton" href="curso-dinamica.html">Ver más</a></button>
+                    </div>
+                </div>
+                
+                <hr class="divider">
+
+                <div class="curso par">
+                    <img src="img/simulaciones.svg" alt="Icono de Simulaciones computacionales">
+                    <div>
+                        <h2 data-i18n="cursos-simulaciones-titulo">Simulaciones computacionales de biomoleculas</h2>
+                        <p data-i18n="cursos-simulaciones-text">Este curso ofrece una introducción a las técnicas de simulación computacional y sus aplicaciones en la investigación biológica.</p>
+                        <button class="boton-cursos"><a data-i18n="cursos-boton" href="curso-simulaciones.html">Ver más</a></button>
+                    </div>
+                </div>
+
+                <hr class="divider">
+
+                <div class="curso impar">
+                    <img src="img/fisicaa.png" alt="Icono de CPU"> 
+                    <div>
+                        <h2 data-i18n="cursos-fisica-titulo">Física A</h2>
+                        <p data-i18n="cursos-fisica-text">Este curso cubre los fundamentos de la bioinformática, incluyendo análisis de secuencias, estructuras de proteínas y genómica.</p>
+                        <button class="boton-cursos"> <a data-i18n="cursos-boton" href="curso-cpu.html">Ver más</a></button>
+                    </div>
+                </div>
+                              
+            </section>
+
+
+
+        </main>
+
+
+
+
+        <footer>
+
+            <section class="footer-arriba">
+                <div class="footer-logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                </div>
+
+                <div class="footer-caja">
+
+                    <ul class="footer-links">
+                        
+                            <div class="column1">
+                                <h3 data-i18n="home-footer-conacto">Contacto</h3>
+                                <li>Universidad Nacional de San Martín (UNSAM)</li>
+                                <li>Edificio ITS, Campus Miguelete, 25 de Mayo y Francia (1650)</li>
+                                <li>easciutto@unsam.edu.ar</li>
+                            </div>
+                            <div class="column2">
+                                <h3>Links</h3>
+                                <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                                <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                                <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                            </div>
+                            <div class="column3">
+                                <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                                <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                                <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>  
+                            </div>
+                    </ul>
+                    
+                </div>
+            </section>
+
+        
+        <section class="footer-abajo">
+            <div class="footer-icons">
+            <a target="_blank" href="https://www.instagram.com/labbioficomp.unsam?igsi=MWd5bGJ6amZua3pocA=="><img src="img/instagram.png" alt="icono de instagram"></a>
+            <a href="mailto:easciutto@unsam.edu.ar" target="_blank"><img src="img/mail.png" alt="icono de mail"></a>
+            </div>
+        </section>
+
+        </footer>
+
+
+    <script src="js/scripts.js"></script>    
+    </body>
+
+
+</html>

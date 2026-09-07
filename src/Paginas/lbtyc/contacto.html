@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LBTyC</title>
+        <link rel="icon" type="image/png" href="img/lablogo2.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+<body>
+
+    <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                    <h2>LBTyC</h2>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                    <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                    <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                    <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                    <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="language-toggle">
+                    <button id="btn-es" class="active">ES</button>
+                    <span>/</span>
+                    <button id="btn-en">EN</button>
+                </div>
+
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+
+    <main class="main-contacto">
+        <div class="contacto-content">
+            <section class="contacto-info">
+                <h1 data-i18n="contacto-titulo">¡Contactanos!</h1>
+                <p data-i18n="contacto-text">Si deseas contactarnos podes enviarnos un mail o completar el siguiente formulario: </p>
+            </section>
+
+            <div class="contacto-abajo">
+                <form class="contacto-form" id="contactoForm" action="https://formspree.io/f/xoeqevpo"
+                method="POST">
+                    <h3 data-i18n="contacto-subtitulo">¿Colaboramos?</h3>
+
+                    <p data-i18n="contacto-mail">Correo electronico</p>
+                    <input type="email" name="email" id="email" required>
+
+                    <p data-i18n="contacto-mensaje">Mensaje</p>
+                    <textarea name="mensaje" id="mensaje" required></textarea>
+
+                    <button data-i18n="contacto-boton" type="submit">Enviar</button>
+                </form>
+
+                <div class="contacto-links">
+                    <a href="mailto:easciutto@unsam.edu.ar" target="_blank">easciutto@unsam.edu.ar</a>
+                    <a href="tel:+5491124087403">+54 9 11 2408-7403</a>
+                    <a href="https://maps.app.goo.gl/Ab62Erwy15imAJw96">Edificio ITS, UNSAM, Buenos Aires, Argentina</a>
+                </div>
+
+            </div>
+
+            
+        <div class="mensaje-enviado" id="mensajeenviado">
+                <div class="mensaje-enviado-div">
+                    <span class="mensaje-enviado-icon">✓</span>
+                    <h3 data-i18n="contacto-enviado">¡Mensaje Enviado!</h3>
+                    <button data-i18n="contacto-boton-cerrrar" type="button" id="cerrarMensaje">Cerrar</button>
+                </div>
+        </div>
+        </div>
+        
+
+
+
+    </main>
+
+    <footer>
+
+            <section class="footer-arriba">
+                <div class="footer-logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                </div>
+
+                <div class="footer-caja">
+
+                    <ul class="footer-links">
+                        
+                            <div class="column1">
+                                <h3 data-i18n="home-footer-conacto">Contacto</h3>
+                                <li>Universidad Nacional de San Martín (UNSAM)</li>
+                                <li>Edificio ITS, Campus Miguelete, 25 de Mayo y Francia (1650)</li>
+                                <li>easciutto@unsam.edu.ar</li>
+                            </div>
+                            <div class="column2">
+                                <h3>Links</h3>
+                                <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                                <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                                <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                            </div>
+                            <div class="column3">
+                                <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                                <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                                <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>  
+                            </div>
+                    </ul>
+                    
+                </div>
+            </section>
+
+        
+        <section class="footer-abajo">
+            <div class="footer-icons">
+            <a target="_blank" href="https://www.instagram.com/labbioficomp.unsam?igsi=MWd5bGJ6amZua3pocA=="><img src="img/instagram.png" alt="icono de instagram"></a>
+            <a href="mailto:easciutto@unsam.edu.ar" target="_blank"><img src="img/mail.png" alt="icono de mail"></a>
+            </div>
+        </section>
+
+        </footer>
+
+    <script src="js/contacto.js"></script>
+
+
+    
+</body>
+</html>

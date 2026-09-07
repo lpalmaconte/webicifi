@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LBTyC</title>
+        <link rel="icon" type="image/png" href="img/lablogo2.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <header class="header-home">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                    <h2>LBTyC</h2>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                    <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                    <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                    <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                    <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="language-toggle">
+                    <button id="btn-es" class="active">ES</button>
+                    <span>/</span>
+                    <button id="btn-en">EN</button>
+                </div>
+
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-inicio">
+            <section class="background1">
+                <div class="titulos-inicio">
+                    <h1 data-i18n="home-title" class="reveal">Laboratorio de Biofísica Teórica y Computacional</h1>
+                </div>
+                <div class="desc-inicio">
+                    <p data-i18n="home-desc" class="reveal">En LBTyC estudiamos proteinas desde una perspectiva física y computacional, combinando simulaciones moleculares, análisis de redes, y herramientas de inteligencia artificial. Buscamos comprender cómo la estructura y la dinámica molecular determinan la función biológica y utilizar ese conocimientio para abordar problemas de relevancia biomédica.</p> <br>
+                </div>
+            </section>
+
+            <section class="background2">
+                <img src="img/novedades.webp" alt="Imagen de coronavirus" class="reveal">
+                <div class="home-novedades">
+                    <h2 data-i18n="home-novedades-title" class="novedades-titulos reveal">Novedades</h2>
+                    <h3 data-i18n="home-novedades-subtitle">La glicosilación modula la dinámica y la comunicación a larga distancia en proteínas</h3>
+                    <p data-i18n="home-novedades-text">En un trabajo reciente estudiamos mediante simulaciones de dinámica molecular el efecto de la glicosilación sobre el receptor de manosa CD206. Nuestros resultados muestran que la eliminación de glicanos no produce únicamente cambios locales, sino que modifica la flexibilidad y el acoplamiento entre regiones distantes de la proteína, favoreciendo la aparición de una nueva conformación. <br>
+                    Este trabajo muestra cómo perturbaciones moleculares locales pueden propagarse a través de una proteína y modificar su comportamiento global, una de las preguntas centrales que abordamos desde la biofísica computacional.
+                    </p>
+                    <button data-i18n="home-boton" class="boton-home"><a href="https://www.nature.com/articles/s41598-026-35240-y" target="_blank">Ver más</a></button>
+                </div>
+            </section>
+            
+            <section class="background3">
+                <div class="home-investigacion">
+                    <h2 data-i18n="home-investigacion-title" class="investigacion-titulos reveal">Investigación</h2>
+                    <p data-i18n="home-investigacion-text">En el LBTyC estudiamos cómo funcionan las proteínas y otros sistemas biomoleculares desde un punto de vista físico. Buscamos comprender las relaciones entre estructura, dinámica y función mediante simulaciones moleculares, métodos de biofísica computacional e inteligencia artificial.
+                    Nuestro trabajo combina investigación fundamental, orientada a comprender los principios físicos que gobiernan el comportamiento de los sistemas biomoleculares, con investigación aplicada, en la que utilizamos ese conocimiento para abordar problemas biomédicos y contribuir al diseño racional de nuevas estrategias terapéuticas. <br> <br>
+                    En particular, actualmente estamos interesados en estos temas:</p>
+                </div>
+
+                <div class="investigacion-slider">
+                    <button class="slider-arrow slider-prev" aria-label="Anterior">
+                        ❮
+                    </button>
+
+                    <div class="home-investigacion-list">
+                    <div class="jump">
+                        <img src="img/vacunas.webp" alt="proteina CaMKII" class="reveal">
+                        <h3 data-i18n="home-investigacion-card1">Diseño de vacunas</h3>                        
+                        <p data-i18n="home-investigacion-card1-text">Estudiamos la dinámica de antígenos y epítopos para identificar regiones con propiedades favorables para el diseño racional de vacunas contra la enfermedad de Chagas.
+                         </p>
+                    </div>
+                    <div class="jump">
+                        <img src="img/deep-learning.webp" alt="proteina CYP450" class="reveal">
+                        <h3 data-i18n="home-investigacion-card2">Deep learning y diseño de péptidos</h3>           
+                        <p data-i18n="home-investigacion-card2-text">Desarrollamos un algoritmo para identificar y caracterizar los estados conformacionales del receptor CXCR3, con el objetivo de diseñar péptidos capaces de modular o inhibir su actividad.
+                        </p>
+                    </div>
+                    <div class="jump">
+                        <img src="img/glioblastoma.webp" alt="drogas" class="reveal">
+                        <h3 data-i18n="home-investigacion-card3">Péptidos contra el glioblastoma</h3>
+                        <p data-i18n="home-investigacion-card3-text">Exploramos nuevas funciones de SNAP25 en glioblastoma y utilizamos este conocimiento para diseñar péptidos nuevos con potencial terapéutico y aplicaciones futuras. </p>
+                    </div>
+                    <div class="jump">
+                        <img src="img/peptidos.webp" alt="proteina CaMKII" class="reveal">
+                        <h3 data-i18n="home-investigacion-card4">Diseño de péptidos</h3>
+                        <p data-i18n="home-investigacion-card4-text">Diseñamos y estudiamos péptidos cíclicos capaces de reconocer proteínas de interés terapéutico, combinando modelado molecular y simulaciones para optimizar su interacción con el blanco.</p>
+                    </div>
+                    <div class="jump">
+                        <img src="img/entropia.webp" alt="proteina CaMKII" class="reveal">
+                        <h3 data-i18n="home-investigacion-card5">Entropía molecular</h3>
+                        <p data-i18n="home-investigacion-card5-text">Desarrollamos métodos para calcular contribuciones entrópicas a la energía libre y comprender su papel en el reconocimiento molecular, con especial interés en complejos proteína–péptido.</p>
+                    </div>
+                </div>
+
+                    <button class="slider-arrow slider-next" aria-label="Siguiente">
+                        ❯
+                    </button>
+                </div>
+
+                <div class="home-investigacion">
+                    <p data-i18n="home-investigacion-text2">En cuanto a las herramientas que usamos, ellas son mayormente métodos teóricos y simulaciones moleculares computacionales.</p>
+                </div>
+
+            </section>
+
+            <section class="background5">
+                <img src="img/nuestrosmiembros.jpeg" alt="foto" class="reveal">
+                <div class="home-colaboraciones">
+                    <h2 data-i18n="home-colaboraciones-titulo" class="colaboraciones-titulos reveal">Nuestro equipo</h2>
+                    <p data-i18n="home-colaboraciones-text">Si te interesa unirte al equipo, ponete en contacto con nosotros para obtener más información sobre las oportunidades disponibles y cómo puedes formar parte de nuestro equipo.</p>
+                    <button data-i18n="home-boton-contact" class="boton-home"><a href="contacto.html">Contactanos</a></button>
+                </div>
+            </section>
+
+            <section class="background6">
+                <div class="home-donaciones">
+                    <h2 data-i18n="home-donaciones-titulo" class="donaciones-titulos reveal">Donaciones</h2>
+                    <p data-i18n="home-donaciones-text"> Si hallas la información/notas/software de estas páginas útiles, o si te interesa ayudar al estudio de los temas que investigamos, te sugerimos que consideres la posibilidad de hacer una donación (presionando en el boton «DONAR») para ayudar a desarrollar nuevas herramientas, o comprar nuevas y más potentes computadoras donde poder hacer nuestros cálculos. Muchas gracias!</p>
+                    <button data-i18n="home-boton-donaciones" class="boton-donar"><a href="https://www.mercadopago.com.ar/checkout/v1/payment/redirect/05873d23-b1c3-4d40-a8a1-2e11a5c967de/payment-option-form/?preference-id=164778815-27854849-8f3b-4129-b4d9-2e91aa9163b4&router-request-id=e9037497-9959-49df-8fa4-1ee598214664&p=10c773e352fdb801cc1b0575916bd080">Donar</a></button>
+                </div>
+            </section>
+
+
+        </main>
+
+
+        <footer>
+
+            <section class="footer-arriba">
+                <div class="footer-logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                </div>
+
+                <div class="footer-caja">
+
+                    <ul class="footer-links">
+                        
+                            <div class="column1">
+                                <h3 data-i18n="home-footer-conacto">Contacto</h3>
+                                <li>Universidad Nacional de San Martín (UNSAM)</li>
+                                <li>Edificio ITS, Campus Miguelete, 25 de Mayo y Francia (1650)</li>
+                                <li>easciutto@unsam.edu.ar</li>
+                            </div>
+                            <div class="column2">
+                                <h3>Links</h3>
+                                <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                                <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                                <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                            </div>
+                            <div class="column3">
+                                <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                                <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                                <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>  
+                            </div>
+                    </ul>
+                    
+                </div>
+            </section>
+
+        
+        <section class="footer-abajo">
+            <div class="footer-icons">
+            <a target="_blank" href="https://www.instagram.com/labbioficomp.unsam?igsi=MWd5bGJ6amZua3pocA=="><img src="img/instagram.png" alt="icono de instagram"></a>
+            <a href="mailto:easciutto@unsam.edu.ar" target="_blank"><img src="img/mail.png" alt="icono de mail"></a>
+            </div>
+        </section>
+
+        </footer>
+
+
+    <script src="js/scripts.js"></script>    
+    </body>
+
+
+</html>

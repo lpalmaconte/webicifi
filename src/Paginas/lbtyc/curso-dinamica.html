@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>LBTyC</title>
+        <link rel="icon" type="image/png" href="img/lablogo2.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                    <h2>LBTyC</h2>
+                </div>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                    <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciónes</a></li>
+                    <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                    <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                    <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                    <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="language-toggle">
+                    <button id="btn-es" class="active">ES</button>
+                    <span>/</span>
+                    <button id="btn-en">EN</button>
+                </div>
+
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-cursos">
+            <section class="curso-intro">
+                <h1 data-i18n="cursos-dinamica-titulo">Dinámica molecular de proteínas</h1>
+                <p data-i18n="dinamica-text">La dinámica molecular, DM, es la simulación computacional de un sistema de moléculas. Dicha simulación consiste en la resolución computacional de las ecuaciones de movimiento de los componentes del sistema, a lo largo del tiempo. En pocas palabras, dada una estructura inicial, se resuelven las ecuaciones y se mueven las componentes de acuerdo a dichas soluciones. Esto genera una nueva estructura. Luego, se repite el proceso sucesivamente, generando así una serie de estructuras. La colección de todas esas estructuras es la llamada trayectoria del sistema (algo así como una película del movimiento del sistema). <br> <br> Dependiendo del grado de precisión que se desee, al sistema se lo puede pensar como formado por distintos componentes. Por ejemplo, una aproximación cruda a una proteína puede estar dada por una aproximación de grano grueso: se toma a los aminoácidos como bloques fundamentales, y se usa la interacción entre ellos como las interacciones fundamentales. Una mejor aproximación seria una simulación a escala atómica, es decir, tomar a los átomos como bloques fundamentales. Y una aproximación todavía más precisa sería hacer la simulación a nivel cuántico, mirando el movimiento de los electrones. Cuanto más preciso es el nivel de aproximación, y mayor es el tamaño del sistema estudiado, mayor es el costo computacional. <br> Específicamente, este curso propone aplicar la DM al estudio de proteínas, de la siguiente manera: <br> -Modelar la proteína a partir de su secuencia. <br> -Simular computacionalmente su dinámica, en condiciones de temperatura, presión y concentración adecuadas, generando trayectorias. <br> -Analizar dichas trayectorias para entender las propiedades de interés de la proteína. <br> <br> Entre las propiedades que se analizan habitualmente se encuentran, por ejemplo, la estructura que minimiza la energía del sistema (optimización de geometría); cambios configuracionales y de energía libre durante la inserción de un ligando a su receptor;  diferencia de energía libre entre estructuras; paso de moléculas a través de membranas lipídicas; etc. <br> El curso se ofrece en la UNSAM, como materia optativa para estudiantes de la carrera de Licenciatura en Biotecnología, y para alumnos del Doctorado en Ciencias Aplicadas y de la Ingeniería. <br> <br> Para inscribirse en el curso, hacerlo directamente a través de UNSAM, y para el doctorado enviar un e-mail a doctoradoecyt@unsam.edu.ar </p>
+            </section>
+
+            <section class="curso-notas">
+                <h3 data-i18n="notas-cursos">Notas de la materia</h3>
+                <ul class="lista-notas">
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2018/08/dmnotas1-intromodelado.pdf" target="_blank">DMnotas1-IntroModelado</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2018/08/dmnotas2-intromodelado1.pdf" target="_blank">DMnotas2-IntroModelado</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2018/08/dmnotas3-modeloshomologos.pdf" target="_blank">DMnotas3-ModelosHomologos</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2018/09/dmnotas4-dinamicamolecular14.pdf" target="_blank">DMnotas4-DinamicaMolecular</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2017/09/dmnotas5-dinamicamolecular2.pdf" target="_blank">DMnotas5-DinamicaMolecular</a></li>
+                    <li><a href="https://aglab1.files.wordpress.com/2017/08/dmnotas6-redeselasticas.pdf" target="_blank">DMnotas6-RedesElasticas</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2017/10/dmnotas7-redeselasticas_anm.pdf" target="_blank">DMnotas7-RedesElasticas_ANM</a></li>
+                    <li><a href="https://aglab1.files.wordpress.com/2017/08/tplinux-1.pdf" target="_blank">TPLinux-1</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2018/08/dmpractica1-introunix.pdf" target="_blank">DMpractica1-IntroUnix</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2017/09/dmpractica2-vmd.pdf" target="_blank">DMpractica2-VMD</a></li>
+                    <li><a href="https://aglab1es.wordpress.com/wp-content/uploads/2017/09/dmpractica3-dialanina.pdf" target="_blank">DMpractica3-Dialanina</a></li>
+                    <li><a href="https://aglab1.files.wordpress.com/2017/08/dmpractica4-anm.pdf" target="_blank">DMpractica4-ANM</a></li>
+                    <li><a href="https://drive.google.com/open?id=1mL-Sqzd-pfrHHy45v6v6XZbvyi4_3PpL" target="_blank">tutorial-dialanina-amber</a></li>
+                </ul>
+
+            </section>
+            
+        </main>
+
+        <footer>
+
+            <section class="footer-arriba">
+                <div class="footer-logo">
+                    <img src="img/lablogo.png" alt="Logo LBTyC">
+                </div>
+
+                <div class="footer-caja">
+
+                    <ul class="footer-links">
+                        
+                            <div class="column1">
+                                <h3 data-i18n="home-footer-conacto">Contacto</h3>
+                                <li>Universidad Nacional de San Martín (UNSAM)</li>
+                                <li>Edificio ITS, Campus Miguelete, 25 de Mayo y Francia (1650)</li>
+                                <li>easciutto@unsam.edu.ar</li>
+                            </div>
+                            <div class="column2">
+                                <h3>Links</h3>
+                                <li><a data-i18n="nav-inicio" href="index.html">Inicio</a></li>
+                                <li><a data-i18n="nav-publicaciones" href="publicaciones.html">Publicaciones</a></li>
+                                <li><a data-i18n="nav-cursos" href="cursos.html">Cursos</a></li>
+                            </div>
+                            <div class="column3">
+                                <li><a data-i18n="nav-software" href="software.html">Software</a></li>
+                                <li><a data-i18n="nav-miembros" href="miembros.html">Miembros</a></li>
+                                <li><a data-i18n="nav-contacto" href="contacto.html">Contacto</a></li>  
+                            </div>
+                    </ul>
+                    
+                </div>
+            </section>
+
+        
+        <section class="footer-abajo">
+            <div class="footer-icons">
+            <a target="_blank" href="https://www.instagram.com/labbioficomp.unsam?igsi=MWd5bGJ6amZua3pocA=="><img src="img/instagram.png" alt="icono de instagram"></a>
+            <a href="mailto:easciutto@unsam.edu.ar" target="_blank"><img src="img/mail.png" alt="icono de mail"></a>
+            </div>
+        </section>
+
+        </footer>
+
+
+    <script src="js/scripts.js"></script>    
+    </body>
+
+
+</html>

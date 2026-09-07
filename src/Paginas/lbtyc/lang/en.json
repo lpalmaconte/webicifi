@@ -1,0 +1,144 @@
+{
+    "nav-inicio": "Home",
+    "nav-publicaciones": "Publications",
+    "nav-cursos": "Courses",
+    "nav-miembros": "Members",
+    "nav-contacto": "Contact",
+
+
+
+
+    "home-title": "Laboratory of Theoretical and Computational Biophysics",
+    "home-desc": "At LBTyC, we study proteins from a physical and computational perspective, combining molecular simulations, network analysis, and artificial intelligence tools. We seek to understand how molecular structure and dynamics determine biological function and to use that knowledge to address problems of biomedical relevance.",
+
+    "home-novedades-title": "What's New",    
+    "home-novedades-subtitle": "Glycosylation modulates protein dynamics and long-range communication",
+    "home-novedades-text": "In a recent study, we used molecular dynamics simulations to investigate the effect of glycosylation on the mannose receptor CD206. Our results show that the removal of glycans not only produces local changes but also alters the flexibility and coupling between distant regions of the protein, promoting the emergence of a new conformation. This work demonstrates how local molecular perturbations can propagate through a protein and alter its global behavior—one of the central questions we address in computational biophysics.",
+    "home-boton": "See more",
+
+    "home-investigacion-title": "Research",
+    "home-investigacion-text": "At LBTyC, we study how proteins and other biomolecular systems function from a physical perspective. We seek to understand the relationships between structure, dynamics, and function through molecular simulations, computational biophysics methods, and artificial intelligence. Our work combines fundamental research—aimed at understanding the physical principles that govern the behavior of biomolecular systems—with applied research, in which we use that knowledge to address biomedical problems and contribute to the rational design of new therapeutic strategies. In particular, we are currently interested in the following topics:",
+    "home-investigacion-card1": "Vaccine design",
+    "home-investigacion-card1-text": "We study the dynamics of antigens and epitopes to identify regions with properties conducive to the rational design of vaccines against Chagas disease.",
+    "home-investigacion-card2": "Deep Learning and Peptide Design",
+    "home-investigacion-card2-text": "We developed an algorithm to identify and characterize the conformational states of the CXCR3 receptor, with the goal of designing peptides capable of modulating or inhibiting its activity.",
+    "home-investigacion-card3": "Peptides for Treating Glioblastoma",
+    "home-investigacion-card3-text": "We explored new functions of SNAP25 in glioblastoma and used this knowledge to design new peptides with therapeutic potential and future applications.",
+    "home-investigacion-card4": "Peptide Design",
+    "home-investigacion-card4-text": "We design and study cyclic peptides capable of recognizing proteins of therapeutic interest, combining molecular modeling and simulations to optimize their interaction with the target.",
+    "home-investigacion-card5": "Molecular entropy",
+    "home-investigacion-card5-text": "We develop methods to calculate entropic contributions to free energy and to understand their role in molecular recognition, with a particular focus on protein–peptide complexes.",
+    "home-investigacion-text2": "As for the tools we use, they consist mainly of theoretical methods and computational molecular simulations.",
+
+    "home-colaboraciones-titulo": "Our team",
+    "home-colaboraciones-text": "If you're interested in joining the team, we'd love to hear from you. Contact us to learn more about available opportunities and how you can become part of our team.",
+    "home-boton-contact": "Contact us",
+
+    "home-donaciones-titulo": "Donations",
+    "home-donaciones-text": "If you find the information, notes, or software on these pages useful, or if you're interested in supporting research about the topics we're studying, consider making a donation to help us develop new tools or purchase new, more powerful computers on which to perform our calculations. Thank you very much!",
+    "home-boton-donaciones": "Donate",
+
+    "home-footer-conacto": "Contact",
+
+
+
+
+
+    "publicaciones-titulo": "Featured publications",
+    "publicaciones-text": "In this section, you'll find our latest scientific publications. These research studies reflect our commitment to excellence in the fields of biotechnology and bioinformatics.",
+
+
+
+
+
+    "cursos-titulo": "Courses",
+    "cursos-text": "In this section, you'll find information about the courses we offer at the lab.",
+    "cursos-mecanica-titulo": "Classical Mechanics",
+    "cursos-mecanica-text":"This course explores computational techniques applied to biological problems, such as molecular modeling and simulations.",
+    "cursos-boton": "See more",
+    "cursos-optica-titulo": "Optics and Electromagnetism",
+    "cursos-optica-text": "This course provides an introduction to biotechnology, including laboratory techniques and industrial applications.",
+    "cursos-moderna-titulo": "Modern Physics",
+    "cursos-moderna-text": "This course explores the principles of modern physics and their applications in biology and medicine.",
+    "cursos-quimica-titulo": "Physical Chemistry",
+    "cursos-quimica-text": "This course covers the fundamentals of bioinformatics, including sequence analysis, protein structures, and genomics.",
+    "cursos-dinamica-titulo": "Molecular Dynamics of Proteins",
+    "cursos-dinamica-text": " This course explores techniques for simulating and modeling biological systems at the molecular level.",
+    "cursos-simulaciones-titulo": "Computer simulations of biomolecules",
+    "cursos-simulaciones-text": "This course provides an introduction to computational simulation techniques and their applications in biological research.",
+    "cursos-fisica-titulo": "Physics A",
+    "cursos-fisica-text": "This course covers the fundamentals of bioinformatics, including sequence analysis, protein structures, and genomics.",
+
+
+
+
+
+
+    "simulaciones-titulo": "Physics simulations",
+    "simulaciones-text": "Here are some computer simulations of simple physical systems, written in Glowscript VPython, which allows them to be run in web browsers. These simulations are very useful for students, as they enable them to conduct experiments. For example, the “Pendulum” code allows students to measure the period of a simple pendulum and study how it depends on the length, the initial angle, and the mass. It also plots the velocity and force vectors and shows how they change over time. But these simulations don’t just replicate real-world experiments; they also let you experiment with Earth’s orbit around the Sun. For example, how would the planet’s orbital period change if its speed were greater?",
+    "simulaciones-pendulo-titulo": "Pendulum",
+    "simulaciones-pendulo-text": "This program shows the motion of a pendulum for a given initial angle. The green arrow on the mass represents its momentum, and the red arrow represents the restoring force acting on it due to gravity.",
+    "simulaciones-orbita-titulo": "Earth's orbit around the Sun",
+    "simulaciones-orbita-text": "This program shows the Earth's orbit around the Sun, given a certain tangential velocity at aphelion (the farthest point in the orbit). The green arrow on the Earth represents its momentum, and the red arrow represents the gravitational force acting on it due to the Sun.",
+    "simulaciones-canon-titulo": "Newton's Canon",
+    "simulaciones-canon-text": "A cannonball fired horizontally from a certain height will fall to the Earth's surface. However, depending on its speed, it might hit the surface or never reach it at all.",
+    "simulaciones-tiro-titulo": "Diagonal shot",
+    "simulaciones-tiro-text": "This program shows the path followed by a particle initially launched at a certain velocity and subject to a certain acceleration. The red arrow represents the acceleration acting on the particle, and the green arrow represents its instantaneous velocity.",
+    "simulaciones-transmision-titulo": "Disease Transmission",
+    "simulaciones-transmision-text": "The simulation begins with one sick particle and all the others healthy. Infection can occur through collision. After being sick for a fixed period of time, the particles recover.",
+
+
+
+
+
+    "miembros-titulo": "About Us",
+    "miembros-text": "We are a research laboratory at the National University of San Martín (UNSAM) focused on the intersection of biology, chemistry, and physics. Our work aims to understand how various biomolecular systems function by applying tools, methods, and approaches from physics. We study phenomena and processes that occur at different scales, with the goal of analyzing how the physical properties of molecules and their interactions influence complex biological systems. Through an interdisciplinary approach, we combine knowledge and methodologies from different fields to address scientific problems from multiple perspectives.",
+    "miembros-subtitulo": "Our team",
+    "miembros-eliana": "Researcher UNSAM & CONICET",
+    "miembros-eliana-estudio": "PhD in Physics",
+    "miembros-ignacio": "Researcher UNSAM & CONICET",
+    "miembros-ignacio-estudio": "PhD in Physics",
+    "miembros-guada": "postdoc researcher",
+    "miembros-ayelen": "PhD fellow",
+    "miembros-andrea": "Student",
+    "miembros-andrea-estudio": "Biomedical engineer",
+    "miembros-candela": "Student",
+    "miembros-candela-estudio": "Bachelor's Degree in Biotechnology",
+    "miembros-mauro": "Student",
+    "miembros-mauro-estudio": "Bachelor's Degree in Biotechnology",
+    "miembros-nacho": "Student",
+    "miembros-nacho-estudio": "Biomedical engineer",
+
+
+
+
+    "contacto-titulo": "Contact Us!",
+    "contacto-text": "If you'd like to contact us, you can send us an email or fill out the form below:",
+    "contacto-subtitulo": "Send us a message!",
+    "contacto-mail": "Email address",
+    "contacto-mensaje": "Message",
+    "contacto-boton": "Send",
+
+
+
+    "notas-cursos": "Course notes",
+    "mecanica-text": "The Euler-Lagrange equation can be viewed as Newton's second law expressed in generalized coordinates. This is a very intuitive perspective that clearly shows the intrinsic connection between Newtonian and Lagrangian dynamics. It was originally developed by Walter Hauser in his book, Introduction to the Principles of Mechanics.",
+    "optica-text":
+    "This course is an introduction to optics and electromagnetism, and is intended for life sciences students. Optics began as the study of the propagation of light, both in a vacuum and in material media. Since visible light is an electromagnetic wave, other forms of electromagnetic radiation — such as microwaves, X-rays, etc. — also fall within the scope of optics. On the other hand, electromagnetism is the study of electric and magnetic forces, which are actually two manifestations of the same force, known as the electromagnetic force. This is one of the four fundamental forces of physics, along with gravity, the strong nuclear force, and the weak nuclear force. Light is a wave of electromagnetic fields, so optics is simply a chapter within electromagnetism.The course begins with a brief description of the concepts of oscillations and waves, and continues with the study of optics, which is approached from two perspectives:    Geometric optics, this is the approach that assumes light travels in straight lines and changes direction only as a result of a change in the medium through which it travels (reflection and refraction) and physical optics, this is a more general approach to light, which takes into account its wave nature. This leads to the phenomena of interference and diffraction—that is, the deflection of light as it propagates through small obstacles; these are phenomena that cannot be explained from the standpoint of geometric optics.In the second part of the course, we first study electricity, then magnetism, concluding by showing that both forces are different aspects of a single, more general force called electromagnetism. Throughout the course, we aim to highlight applications of optics and electromagnetism in the life sciences, such as the functioning of fundamental optical instruments in biology (optical, confocal, and fluorescence microscopes, etc.) and electrical conduction in cells (membrane potentials, neurons as electrical circuits, etc.), among many others.",
+    "simulaciones-curso-text": "The Monte Carlo method and molecular dynamics are different types of methods; one is based on the probability of an event occurring, while the other is based on solving a system’s equations of motion. Both are commonly applied to the study of biomolecules. In particular, in this course we will apply them to the study of simple systems, such as a set of identical, non-interacting particles (an ideal gas), and a simplified model of what a protein might be—that is, a chain of elements with certain properties. The goal of the course is for students to: 1) learn to develop an algorithm that solves a problem, 2) program it in their preferred language, 3) test it to ensure it works correctly, 4) use it to conduct computational experiments on a system of interest, and 5) draw well-founded conclusions based on the results. There are currently many programs that allow users to perform computer simulations and, thanks to their user-friendly interfaces, are easy to use; however, this does not guarantee that the user will apply them correctly when studying the system in question. On the contrary, it is easy to “believe” that the program is doing something it is not, and to draw false conclusions from its results. This is especially true when applying sophisticated methods that are already “built in” to the code. For this reason, we believe it is essential to have technical training in the fundamentals of these methods; and there is probably no more efficient way to learn something than by programming it, since, to do so successfully, we need to understand in detail both the equations used and the algorithm applied to solve them. The course is offered at UNSAM as an elective for students in the Bachelor’s program in Biotechnology and for students in the Doctoral program in Applied Sciences and Engineering. To register for the course, do so directly through UNSAM; for the doctoral program, send an email to doctoradoecyt@unsam.edu.ar",
+    "moderna-text": "This is the name given to the study of the transition that took place around 1900, when scientists realized that there was something fundamental that the physics of that era was overlooking. Over time, they identified two areas that had been studied incorrectly: 1. The treatment of physics at speeds comparable to that of light. 2. The treatment of matter at the microscopic level. These two areas of study developed into what are now known as the Special Theory of Relativity and Quantum Mechanics, respectively.",
+    "quimica-text": "Physical chemistry is the study of matter at the atomic, molecular, and macroscopic levels from the perspective of quantum physics and thermodynamics. In particular, it focuses on the interactions between molecules, how they react to these interactions, and how they ultimately reach chemical equilibrium.",
+    "dinamica-text": "Molecular dynamics (MD) is the computational simulation of a system of molecules. This simulation involves the computational solution of the equations of motion for the system’s components over time. Simply put, given an initial structure, the equations are solved, and the components are moved according to those solutions. This generates a new structure. The process is then repeated successively, thereby generating a series of structures. The collection of all these structures is called the system’s trajectory (something like a movie of the system’s motion). Depending on the desired level of precision, the system can be thought of as consisting of different components. For example, a crude approximation of a protein might be a coarse-grained model: amino acids are treated as fundamental building blocks, and the interactions between them are considered the fundamental interactions. A better approximation would be an atomic-scale simulation—that is, treating atoms as the fundamental building blocks. And an even more precise approximation would be to perform the simulation at the quantum level, examining the motion of electrons. The more precise the level of approximation and the larger the size of the system under study, the greater the computational cost. Specifically, this course proposes applying MD to the study of proteins in the following way: Model the protein based on its sequence, computationally simulate its dynamics under appropriate temperature, pressure, and concentration conditions, generating trajectories, and analyze these trajectories to understand the protein’s properties of interest. Among the properties commonly analyzed are, for example, the structure that minimizes the system’s energy (geometric optimization); conformational and free-energy changes during the binding of a ligand to its receptor; differences in free energy between structures; the passage of molecules through lipid membranes; and so on. The course is offered at UNSAM as an elective for students in the Bachelor’s program in Biotechnology and for students in the Doctoral program in Applied Sciences and Engineering. To register for the course, do so directly through UNSAM; for the doctoral program, send an email to doctoradoecyt@unsam.edu.ar",
+    "fisica-text": "Under construction"
+
+
+
+
+
+
+
+
+
+    
+
+}
